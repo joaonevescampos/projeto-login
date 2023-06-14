@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+
+    body,html{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../imagens/fundo-pc.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     #container-formulario{
         height: 250px;
         width: 500px;
