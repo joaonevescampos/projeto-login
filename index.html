@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+</head>
+<body>
+    <main>
+        <section id="container-formulario">
+            <div id="imagem-formulario"></div>
+            <div id="formulario">
+                <form action="cadastro.php" autocomplete="on">
+                    <p>
+                        <label for="ilogin">Login:</label>
+                        <input type="email" name="login" id="ilogin" required autocomplete="email" placeholder=" Digite sua senha">
+                    </p><br>
+                    <p>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" placeholder=" Digite sua senha">
+                    </p>
+
+                    <div class="container-botao">
+                        <input type="submit" value="Entrar" class="botao">
+                    </div>
+                    <div class="container-botao">
+                        <button class="botao">Esqueci a senha</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

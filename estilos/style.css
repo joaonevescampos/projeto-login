@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/fundo-celular.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#container-formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    background-color: white;
+    display: inline-block;
+    height: 450px;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.87);
+
+    transform: translate(-50%, -50%);
+    transition: width .1s, height .1s;
+    transition-timing-function: ease ;
+}
+
+#imagem-formulario{
+    background-image: url(../imagens/logo-hotel.jpg);
+    background-position: right center;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 95%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgba(127, 255, 212, 0.185);
+}
+
+input:focus-within{
+    background-color: white;
+}
+
+button{
+    width: 95%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+input[type=password]{
+    margin-bottom: 10px;
+    
+}
+
+.container-botao{
+    width: 250px;
+    margin: auto;
+    padding: 10px 0 0 10px;
+}
+
+.botao{
+    background-color: rgb(3, 13, 37);
+    color: white;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background-color:  rgb(8, 38, 107);
+    cursor: pointer;
+}
+
+
